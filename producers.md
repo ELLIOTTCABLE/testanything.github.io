@@ -277,26 +277,14 @@ PHP5 Unit Testing Framework
 
 ## SH / Shell Script
 
-### Bats
-
 -    [Bats](http://github.com/sstephenson/bats) - the Bash Automated Testing System
-
-### tap-functions
-
--     [tap-functions](http://testanything.org/wiki/index.php/Tap-functions)
-
-(An excellent and useful library, I use it often. --Jeremiah)
-
-### Sharness
 -    [Sharness](https://github.com/mlafeldt/Sharness) - Shell-based Test Harness Library, derived from Git project (see below)
+-    [bash-test-utils](https://github.com/tapper/Tapper-autoreport/blob/master/bash-test-utils) - bash test library, unintrusive, optionally many utilities for testing in Linux/Xen/KVM context.
 
 ### Git Project
 While it's not a working implementation, the Git project has starter code that supplies the basic functionality of ok/not Ok and some skipping functionality, even with colored output! Look in t/test-lib.sh and other test files for example code and use.
+
 -    [Latest Git Snapshot](http://www.codemonkey.org.uk/projects/git-snapshots/git/git-latest.tar.gz)
-
-### bash-test-utils
-
--    [bash-test-utils](https://github.com/tapper/Tapper-autoreport/blob/master/bash-test-utils) - bash test library, unintrusive, optionally many utilities for testing in Linux/Xen/KVM context.
 
 ## DB2 SQL PL
 
